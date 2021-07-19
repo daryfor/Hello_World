@@ -1,0 +1,9 @@
+#luna {
+    text-align: center;
+    background-color: grey;
+}
+
+#luna p {
+    padding-left: 500px;
+    padding-right: 500px;
+}
