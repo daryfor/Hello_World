@@ -1,2 +1,4 @@
-# Hello_World
-This is my first repository
+# Hello_World repository
+This repository contains several projects:
+- Hello World
+- Luna
