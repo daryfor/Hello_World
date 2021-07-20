@@ -1,0 +1,32 @@
+body {
+    background: blue;
+    color: yellow
+}
+
+[lang|='es'] {
+    font-weight: bold;
+    color: white;
+}
+
+[data-quantity$='kg'] {
+    font-weight: bold;
+    color: red;
+}
+
+[data-type~='liquid'] {
+    color: brown;
+}
+
+div {
+    background: blue;
+}
+
+#contenedor2 {
+    background: pink;
+    color: black;
+}
+
+.contenedor3 {
+    background: yellow;
+    color: black;
+}
