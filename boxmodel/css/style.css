@@ -1,0 +1,15 @@
+div {
+    background-color: yellow;
+    height: 60px;
+    width: 140px;
+    border: 8px solid green;
+    padding: 15px;
+}
+
+.border {
+    box-sizing: border-box;   
+}
+
+.content {
+    box-sizing: content-box;
+}

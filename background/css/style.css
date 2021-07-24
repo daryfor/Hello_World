@@ -1,0 +1,11 @@
+.back {
+    background-color: blue;
+    background-image: url(../images/naruto.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-clip: content-box;
+    background-origin: padding-box;
+    height: 450px;
+    width: 800px;
+}
