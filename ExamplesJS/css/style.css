@@ -1,0 +1,19 @@
+#primo {
+    background-color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    padding-right: 110px;
+    padding-left: 110px;
+    text-align: center;
+    margin: 0;
+}
+
+#noprimo {
+    background-color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+    padding-right: 110px;
+    padding-left: 110px;
+    text-align: center;
+    margin: 0;
+}
