@@ -242,7 +242,7 @@ if(!esPrimo(num)) {
  *  - Acelerar(). Aumentará la velocidad en 30
  *  - Frenar(). Disminuirá la velocidad a 0
  */
-
+/*
 class Coche {
     constructor(name,brand,speed) {
         console.log("Coche instanciado!!");
@@ -251,11 +251,11 @@ class Coche {
         this.speed = speed;
     }
 
-    acelerar(speed) {
+    acelerar() {
         return this.speed + 30;
     }
 
-    frenar(speed) {
+    frenar() {
         return this.speed = 0;
     }
 }
@@ -270,8 +270,77 @@ console.log(car);
 
 document.write("<p>El coche comprado es " + car.brand + " " + car.name + "</p>");
 
-let velocidad = car.acelerar(car.speed);
+let velocidad = car.acelerar();
 
 document.write("<p>La velocidad a la que puede ir es " + car.speed + " pero si acelera puede ir a " + velocidad + "</p>");
 
 document.write("<p>A la hora de frenar, el coche pasaría a " + car.frenar() + "</p>");
+*/
+
+/**
+ * KATA -ES6. HERENCIA.
+ * Crea un objeto vehículo. Aprovecha la herencia para crear:
+ *  - Coche
+ *  - Moto
+ *  - Patín
+ *  - Bicicleta
+ * 
+ * Características:
+ *  - Marca
+ *  - Matricula
+ *  - Nº Ruedas
+ *  - Nº Puertas
+ *  - Años
+ *  - Velocidad
+ *  - Correr(). Velocidad incrementada en 10
+ *  - Frenar(). Velocidad es 0
+ *  - Aparcar(). console.log('Aparcado')
+ */
+
+class Vehiculo {
+    constructor(marca,matricula,ruedas,puertas,years,speed) {
+        this.marca = marca;
+        this.matricula = matricula;
+        this.ruedas = ruedas;
+        this.puertas = puertas;
+        this.years = years;
+        this.speed = speed;
+    }
+
+    correr() {
+        return this.speed + 10;
+    }
+
+    frenar() {
+        return this.spee = 0;
+    }
+
+    aparcar() {
+        return console.log("Aparcado!");
+    }
+}
+
+class Coche extends Vehiculo {
+    constructor(marca,matricula,ruedas,puertas,years) {
+        super(marca,matricula,ruedas,puertas,years);
+        this.consumo = "Diesel";
+    }
+}
+
+class Moto extends Vehiculo {
+    constructor(marca,matricula,ruedas,years) {
+        super(marca,matricula,ruedas,years);
+    }
+}
+
+class Patin extends Vehiculo {
+    constructor(marca,ruedas,years) {
+        super(marca,ruedas,years);
+    }
+}
+
+class Bicicleta extends Vehiculo {
+    constructor(marca, ruedas,years) {
+        super(marca,ruedas,years);
+    }
+}
