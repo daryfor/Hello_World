@@ -1,0 +1,35 @@
+#header {
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    border: solid black 1px;
+    background-color: blanchedalmond;
+    margin: 0px 200px;
+}
+
+#clasificacion {
+    margin: 40px 500px 80px 20px;
+    border: gray solid 1px;
+}
+
+#circuitos {
+    margin: -82px 20px 0px 494px;
+    border: steelblue solid 1px;
+}
+
+.table {
+    display: block;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    font-size: 85%;
+}
+#participantes {
+    padding-right: 420px;
+}
