@@ -1,0 +1,18 @@
+.tablero {
+    background-color: #401f1fe8;
+    padding: 20px;
+}
+
+.impar .par {
+    width: 20%;
+}
+
+.impar {
+    background-color: white;
+    padding: 35px;
+}
+
+.par {
+    background-color: black;
+    padding: 35px;
+}

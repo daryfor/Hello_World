@@ -1,0 +1,14 @@
+.tabla {
+    background-color: rgb(63, 63, 155);
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+td {
+    border: 10px solid rgb(63, 63, 155);
+    background-color: white;
+    padding: 10px;
+}
+img {
+    width: 100%;
+}
